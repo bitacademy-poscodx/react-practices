@@ -2,7 +2,7 @@ import React from 'react';
 
 // import {Header} from './assets/scss/Header.scss';
 import styled from 'styled-components';
-const StyledH1 = styled.h1`
+const StyledDiv = styled.h1`
     width: 280px;
     font-size: 14px;
     text-align: center;
@@ -15,8 +15,8 @@ const StyledH1 = styled.h1`
 
 export default function(props) {
     return (
-        <StyledH1>
+        <StyledDiv>
             CSS in JS: Styled Component
-        </StyledH1>
+        </StyledDiv>
     );
 }
