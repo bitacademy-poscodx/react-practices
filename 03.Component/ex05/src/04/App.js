@@ -27,6 +27,7 @@ export default function App() {
     }, []);
 
     return(
+        ticks % 5 === 0 ? null:
         <Clock
             title={`ex05: Clock Component II: ${ticks}`}
             hours={currentTime.hours}
