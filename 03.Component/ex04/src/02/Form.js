@@ -37,9 +37,9 @@ export default function Form() {
                 }}/>
             {
                 email === '' ?
-                    null :
+                    null:
                     validEmail ?
-                        <b>O</b> :
+                        <b>O</b>:
                         <b>X</b>
             }
 
