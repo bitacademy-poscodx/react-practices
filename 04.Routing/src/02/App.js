@@ -7,8 +7,6 @@ import Error404 from "./component/Error404";
 export default function App() {
     const [route, setRoute] = useState({page: window.location.href.substring(window.location.href.lastIndexOf("/"))});
 
-
-
     const handleLinkClick = (e) => {
         e.preventDefault();
 
